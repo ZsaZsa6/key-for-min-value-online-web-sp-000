@@ -9,8 +9,5 @@ name_hash.each{|key, value|}
     lowest_value = value
     key_for_min = key
   end
-  elsif value = i
-    return key
-    i += 1
+return key
   end
-end
