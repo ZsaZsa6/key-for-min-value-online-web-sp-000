@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   name_hash.each {|key, value|}
   if name_hash == {}
     return nil
-  elsif value == i
+  elsif value = i
     return key
     i += 1
   end
