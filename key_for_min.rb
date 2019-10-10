@@ -3,9 +3,9 @@
 
 def key_for_min_value(name_hash)
   name_hash.each {|key, value|}
-  if value < 0
+  if name_hash = {}
     return nil
-  else
+  while value
     return key
   end
 end
